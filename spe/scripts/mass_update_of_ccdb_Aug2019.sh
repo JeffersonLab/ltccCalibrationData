@@ -7,7 +7,7 @@
 CCDB_CONNECTION=mysql://clas12writer:geom3try@clasdb/clas12
 
 # re-upload to ccdb in run order
-for f in ../201{8,9}/*.txt ; do
+for f in $(ls ../201{8,9}/*.txt | sort -t'/' -k 3 -n) ; do
     run=$(basename $f .txt)
     echo ccdb add calibration/ltcc/spe -r $run- $f
 done
