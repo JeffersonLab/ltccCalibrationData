@@ -1,16 +1,15 @@
- EXPERIMENT            RUN RANGE           Status In Table?
-
-
-RGB Spring 2019
-RGA Spring 2019
-
-RGK Fall 2018
-RGA Fall 2018
-
-
-RGM
-RGB Fall 2019
-
-RGC
-
-
+Run group            Start-End            Monitored runs for status table
+----------------------------------------------------------------------------------------------------
+RG-C Summer 2022     16000-20000         16066,
+RG-M Fall 2021       14776-15884         
+RG-I Summer 2021     14130-14775         
+RG-F Summer 2020     12321-12951         12422, 12478, 
+RG-F Spring 2020     11607-12282         11674, 
+RG-B Spring 2020     11323-11571         11324, 
+RG-B Fall 2019       11014-11309         11015, 
+RG-A Spring 2019     6607-6783           6609, 6619, 6631, 6672, 6698, 6715, 6765, 
+RG-B Spring 2019     6141-6606           6200, 6201, 6213, 6379, 6380, 6386, 6389, 6396, 6420, 6467, 6522, 6591, 
+RG-K Fall 2018       5674-6000           5694, 5700, 5893, 
+RG-A Fall 2018       4760-5674           5472, 
+RG-A Spring 2018     3029-4326           3135, 
+Engineering Run      1960-2999           
