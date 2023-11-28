@@ -22,3 +22,11 @@ RGC  16000-20000
 
 ## Data Location
 
+## Status table visualization
+
+To create a 2D-plot with the status table along time:
+```bash
+cd status
+python3 LTCC_status_visual.py
+```
+A png file will be created. The python script is created starting from a a Jupyter Notebook which can be found in the status folder.
