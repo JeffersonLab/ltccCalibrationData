@@ -85,7 +85,7 @@ Last update {dt.datetime.now():%Y-%m-%d}
 
     for rg,v in rung_spe.items():
         #print(f'*{rg}*')
-        text += f'*{rg}*\n'
+        text += f'\n*{rg}*\n'
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
             text += pd.DataFrame(v).to_markdown(index=False)
@@ -101,7 +101,7 @@ Last update {dt.datetime.now():%Y-%m-%d}
 
     for rg,v in rung_status.items():
         #print(f'*{rg}*')
-        text += f'*{rg}*\n'
+        text += f'\n*{rg}*\n'
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
             text += pd.DataFrame(v).to_markdown(index=False)
