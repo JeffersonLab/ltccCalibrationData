@@ -76,11 +76,15 @@ if __name__ == '__main__':
 
 
     text = f'''
-# Run group list available runs for LTCC spe constants
+# Run Ranges
 
 Last update {dt.datetime.now():%Y-%m-%d}
 
-## SPE
+{pd.DataFrame(rg_ranges).to_markdown(index=False)}
+
+## Available runs for LTCC spe/status constants
+
+### SPE
 '''
 
     for rg,v in rung_spe.items():
@@ -97,7 +101,7 @@ Last update {dt.datetime.now():%Y-%m-%d}
             text += ' \n'
 
     text += f'''
-## STATUS
+### STATUS
 
 '''
 

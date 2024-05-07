@@ -1,9 +1,31 @@
 
-# Run group list available runs for LTCC spe constants
+# Run Ranges
 
 Last update 2024-05-07
 
-## SPE
+| name             |   start_run |   end_run |
+|:-----------------|------------:|----------:|
+| RG-E 2024        |       20000 |     99999 |
+| RG-K 2024        |       19200 |     19893 |
+| RG-D 2023        |       18305 |     19131 |
+| RG-C 2023        |       17471 |     17811 |
+| RG-C Summer 2022 |       16000 |     17470 |
+| RG-M Fall 2021   |       14776 |     15884 |
+| RG-I Summer 2021 |       14130 |     14775 |
+| RG-F Summer 2020 |       12321 |     12951 |
+| RG-F Spring 2020 |       11607 |     12282 |
+| RG-B Winter 2020 |       11323 |     11571 |
+| RG-B Fall 2019   |       11014 |     11309 |
+| RG-A Spring 2019 |        6607 |      6783 |
+| RG-B Spring 2019 |        6141 |      6606 |
+| RG-K Fall 2018   |        5674 |      6000 |
+| RG-A Fall 2018   |        4760 |      5674 |
+| RG-A Spring 2018 |        3029 |      4326 |
+| Engineering Run  |        1960 |      2999 |
+
+## Available runs for LTCC spe/status constants
+
+### SPE
 
 *RG-E 2024*
  
@@ -110,7 +132,7 @@ Last update 2024-05-07
 *Engineering Run*
  
 
-## STATUS
+### STATUS
 
 
 *RG-E 2024*
