@@ -76,11 +76,11 @@ if __name__ == '__main__':
 
 
     text = f'''
-### Run group list available runs for LTCC spe constants
+# Run group list available runs for LTCC spe constants
 
 Last update {dt.datetime.now():%Y-%m-%d}
 
-#### SPE
+## SPE
 '''
 
     for rg,v in rung_spe.items():
@@ -97,7 +97,7 @@ Last update {dt.datetime.now():%Y-%m-%d}
             text += ' \n'
 
     text += f'''
-#### STATUS
+## STATUS
 
 '''
 
