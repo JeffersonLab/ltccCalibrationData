@@ -39,7 +39,7 @@ def build_run_list(folder):
         if str(f.parent).split("/")[-1].isdigit():
             year_from_dir = str(f.parents[0]).split("/")[-1]
         else:
-            year_from_dir = year_from_file
+            year_from_dir = ' '
 
         if str(f.stem).split("_")[-1].isdigit():
             run = int(str(f.stem).split("_")[-1])
