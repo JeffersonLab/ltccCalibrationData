@@ -36,7 +36,7 @@ def build_run_list(folder):
         year_from_file = dt.datetime.fromtimestamp(f.stat().st_ctime).year
 
         # Year from the directory (if any)
-        if len(str(f.parents[0]).split("/"))>1:
+        if str(f.parent).split("/")[-1].isdigit():
             year_from_dir = str(f.parents[0]).split("/")[-1]
         else:
             year_from_dir = year_from_file
