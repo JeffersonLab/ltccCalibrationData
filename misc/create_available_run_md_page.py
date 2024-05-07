@@ -88,7 +88,9 @@ Last update {dt.datetime.now():%Y-%m-%d}
         text += f'\n*{rg}*\n'
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
-            text += pd.DataFrame(v).to_markdown(index=False)
+            df = pd.DataFrame(v)
+            df.columns = ['Run', 'Dir', 'Year', 'File Timestamp']
+            text += df.to_markdown(index=False)
             text += ' \n'
         else:
             #print(' ')
@@ -104,7 +106,9 @@ Last update {dt.datetime.now():%Y-%m-%d}
         text += f'\n*{rg}*\n'
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
-            text += pd.DataFrame(v).to_markdown(index=False)
+            df = pd.DataFrame(v)
+            df.columns = ['Run', 'Dir', 'Year', 'File Timestamp']
+            text += df.to_markdown(index=False)
             text += ' \n'
         else:
             #print(' ')
