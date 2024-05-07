@@ -10,15 +10,9 @@
 
 ## CLAS12 Run Periods: 
 
-RGA Spring 2018.   3000-4700
-RGA Fall 2018.        4760-5670
-RGK Fall 2018.  5674-6000
-RGB Spring 2019. 6120-6604
-RGA Spring 2019.   6605-6783
-RGF  11607-12282,12321-12955
-RGM  2366-2597, 3029-3105
-RGC  16000-20000
-
+See the page updated [here](https://github.com/JeffersonLab/ltccCalibrationData/blob/main/available_runs.md), or directly:
+- [available runs (*spe*)](https://github.com/JeffersonLab/ltccCalibrationData/blob/main/available_runs.md#available-runs-for-ltcc-spestatus-constants)
+- [available runs (*status*)](https://github.com/JeffersonLab/ltccCalibrationData/blob/main/available_runs.md#status)
 
 ## Data Location
 
