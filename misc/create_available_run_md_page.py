@@ -76,14 +76,12 @@ if __name__ == '__main__':
 
 
     text = f'''
-    ### Run group list available runs for LTCC spe constants
+### Run group list available runs for LTCC spe constants
 
-    Last update {dt.datetime.now():%Y-%m-%d}
+Last update {dt.datetime.now():%Y-%m-%d}
 
-
-    #### SPE
-
-    '''
+#### SPE
+'''
 
     for rg,v in rung_spe.items():
         #print(f'*{rg}*')
@@ -91,16 +89,15 @@ if __name__ == '__main__':
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
             text += pd.DataFrame(v).to_markdown(index=False)
-            text += '\n'
+            text += ' \n'
         else:
             #print(' ')
             text += ' \n'
 
     text += f'''
+#### STATUS
 
-    #### STATUS
-
-    '''
+'''
 
     for rg,v in rung_status.items():
         #print(f'*{rg}*')
@@ -108,7 +105,7 @@ if __name__ == '__main__':
         if (len(v)>0):
             #print(pd.DataFrame(v).to_markdown(index=False))
             text += pd.DataFrame(v).to_markdown(index=False)
-            text += '\n'
+            text += ' \n'
         else:
             #print(' ')
             text += ' \n'
