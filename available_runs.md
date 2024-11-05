@@ -1,7 +1,7 @@
 
 # Run Ranges
 
-Last update 2024-07-29
+Last update 2024-11-05
 
 | name             |   start_run |   end_run |
 |:-----------------|------------:|----------:|
@@ -37,7 +37,9 @@ Last update 2024-07-29
  
 
 *RG-D 2023*
- 
+|   Run |   Dir |   Year | File Timestamp   |
+|------:|------:|-------:|:-----------------|
+| 18468 |  2024 |   2024 | 2024-11-05 11:06 | 
 
 *RG-C Spring 2023*
  
