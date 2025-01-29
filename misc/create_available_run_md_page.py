@@ -6,9 +6,12 @@ import pandas as pd
 # Keep this updated using RCDB
 # https://clasweb.jlab.org/rcdb
 # Open the "run min" drop down menu to see the run ranges
+#
+# * RG-K 2024 split based on Annalisa'a presentation here https://clasweb.jlab.org/wiki/images/6/6c/RGK_spring2024_calibration.pdf
 
 rg_ranges = [{'name' : 'RG-E 2024', 'start_run' : 20000, 'end_run'   : 99999},
-             {'name' : 'RG-K 2024', 'start_run' : 19200, 'end_run'   : 19893},
+             {'name' : 'RG-K Spring 2024', 'start_run' : 19331, 'end_run'   : 19893},
+             {'name' : 'RG-K Fall 2023', 'start_run' : 19204, 'end_run'   : 19260},
              {'name' : 'RG-D 2023', 'start_run' : 18305, 'end_run'   : 19131},
              {'name' : 'RG-C Spring 2023', 'start_run' : 17471, 'end_run'   : 17811},
              {'name' : 'RG-C Fall 2022', 'start_run' : 16843, 'end_run'   : 17408},
